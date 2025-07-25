@@ -557,9 +557,6 @@ img {
   margin-bottom: 20px;
   }
 
-
-
-
   .place{
     width: 60%;
     padding: 8px;
@@ -627,4 +624,49 @@ img {
     
   }
 
+  .deal-img-01-02 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .deal-img-01-02 img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .deal-img-01,
+  .deal-img-02 {
+    width: 100%;
+  }
+
+  .deal-img-section img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
 }
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  z-index: 2;
+}
+
+.image-with-text {
+  position: relative;
+  display: inline-block;
+}
+
+.image-with-text img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
